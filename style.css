@@ -1,0 +1,431 @@
+/* *{
+  overflow-x: hidden;
+  
+} */
+  
+body{
+    margin: 0;
+    font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navigation {
+  background-color: #f5f5f5;
+  height: 34px;
+ 
+}
+.navigation ul {
+  list-style: none;
+  padding-right: 3em;
+  font-size: small;
+}
+.navigation svg{
+    padding-left: 3em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  opacity: 0.7;
+}
+.uldiv{
+    display: flex;
+    gap: 30px;
+    float: right;
+    margin-top: 0%;
+}
+.navigation2{
+    background-color: #ffffff;
+    display: flex;
+    width: 100%;
+
+    position: relative;
+    z-index: 1;
+}
+.nike-logo{
+    padding-left: 48px;
+}
+.uldiv2{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+    align-items: center;    
+    margin:auto;
+    height: 60px;
+}
+.searchbar{
+  margin-right: 6%;
+  padding-top: 1em;
+  
+}
+.searchtext{
+  border: none;
+  background-color: #f5f5f5;
+  padding: 8px;
+  padding-left: 30px;
+  border-radius: 2rem;
+}
+
+.heart{
+
+position:absolute;
+margin-left: 91rem;
+margin-top: 1em;
+}
+.heart:hover{
+  background-color: #f5f5f5;
+}
+.bag{
+  position: absolute;
+  margin-left: 93rem;
+    margin-top: 1em
+}
+.bag:hover{
+  background-color: #f5f5f5;
+}
+.image1{
+  width: 100%;
+  height: 100vh;
+}
+.image1 img{
+    width: 94%;
+    margin: 40px;
+}
+.go-outside{
+  display: flex;
+  justify-content: center;
+  height: 6rem;
+}
+.go-outside p{
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.go-outside-description{
+  text-align: center;
+  font-size: 18px;
+}
+.shopbutton{
+  display: flex;
+  justify-content: center;
+}
+.shopbutton button{
+  background-color: black;
+  color: #ffffff;
+  border-radius: 27px;
+  font-size: medium;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.shopbutton button:hover{
+  background-color: #938888e2;
+  color: white;
+}
+.Featured{
+  position: relative;
+}
+.Featured h2{
+  margin-left: 48px;
+  margin-top: 84px;
+  margin-bottom: 24;
+}
+.Featured img{
+  padding-left: 37px;
+  width: 705px;
+  height: 700px;
+}
+.Jordan{
+  position: absolute;
+  color: white;
+  margin-top: -100px;
+  margin-left: 4em;
+  font-size: 24px;
+}
+.NikeM{
+  margin-left: 837px;
+  position: absolute;
+  margin-top: -110px;
+  font-size: 24px;
+  color: black;
+ }
+ .jordanshop{
+  position: absolute;
+  right: 85rem;
+  top: 43rem;
+  padding:7px;
+  border-radius: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 0ch;
+ }
+ .jordanshop:hover{
+  background-color: #938888e2;
+  cursor: pointer;
+ }
+ .Mshop{
+  padding: 7px;
+  position: absolute;
+  top: 43rem;
+  border-radius: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  right: 38.5rem;
+  background-color: white;
+  border: 0ch;
+ }
+ .Mshop:hover{
+  background-color: #938888e2;
+  cursor: pointer;
+ }
+ .trending p{
+  margin-left: 48px;
+  margin-top: 84px;
+  font-size: 24px;
+ }
+ .trending img{
+margin-left: 48px;
+margin-right: 48px;
+width: 93%;
+ }
+ .latesttennis{
+  display: flex;
+  margin-top: 97px;
+ }
+.ltc{
+  margin-left: 48px;
+  font-size: 24px;
+
+
+}
+.ltcshop{
+  font-size: 20px;
+  margin-left:  1008px;
+}
+.latesttennis svg{
+  padding: 12px;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+}
+.latesttennis svg:hover{
+  background-color: #e5e5e5;
+}
+.latestshoes{
+  display: flex;
+  justify-content: space-around;
+}
+.latestshoes img{
+  width: 467px;
+  height: 564px;
+}
+.shoedescription{
+  display: flex;
+}
+.shoes1desc{
+  list-style:none ;
+}
+.shoes2desc{
+  list-style:none ;
+  margin-left: 20rem;
+
+}
+.shoes3desc{
+  list-style:none ;
+  margin-left: 2rem;
+}
+.brown{
+  color: #aa8375;
+}
+.dontmiss{
+  position: relative;
+}
+.dm{
+  font-size: 24px;
+  margin-left: 48px;
+  margin-top: 84px;
+  margin-bottom: 24px;
+}
+.dontmiss img{
+  padding-left: 48px;
+  padding-right: 48px;
+  width: 93%;
+}
+.fia{
+  letter-spacing: -4px;
+    position: absolute;
+    font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    right: 60rem;
+    top: 34rem;
+    transform: scaleY(1.5);
+    color: white;
+  
+}
+.fiadesc{
+  position:absolute;
+  left: 6.5rem;
+  top: 42rem;
+  color: white;
+}
+.fiashop{
+  padding: 7px;
+  position: absolute;
+  border-radius: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: white;
+  right:84.5rem;
+  top: 45rem;
+  border: 0ch;
+}
+.fiashop:hover{
+  background-color: #938888e2;
+}
+.moredesc{
+  margin-left: 48px;
+  margin-top: 97px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.morenike{
+  position: relative;
+}
+.moreimages{
+  display: flex;
+  justify-content: space-around;
+}
+.morenike img{
+  width:27%;
+}
+.morenike button{
+  padding: 8px;
+  border-radius: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 0ch;
+  font-size: 18px;
+}
+.morenike button:hover{
+  background-color: #938888e2;
+}
+.men{
+  position:absolute;
+  top: 28rem;
+  left:6rem;
+}
+.women{
+  position: absolute;
+  top: 28rem;
+  left: 38rem;
+}
+.kids{
+  position: absolute;
+  right: 21rem;
+  top: 28rem;
+}
+.prefooter{
+  margin-top: 114px;
+  display: flex;
+  justify-content:center;
+  gap: 121px;
+}
+.prefooter ul{
+  list-style: none;
+}
+.prefooter li{
+  color: #938888e2;
+  padding-top: 1rem;
+}
+footer{
+  display: flex;
+  background-color: rgb(1, 1, 1);
+  position: relative;
+  height: 361px;
+}
+.fas{
+  /* background-color: yellow; */
+  margin-top: 41px;
+  margin-left: 55px;
+}
+.gh{
+  right: 58rem;
+  position: absolute;
+  bottom: 2rem;
+}
+.about{
+  right: 43rem;
+  position: absolute;
+  bottom: 8rem;
+}
+.footer svg{
+  background-color: grey;
+  border-radius: 50%;
+  border: 0ch;
+}
+.footer svg:hover{
+  background-color: white;
+}
+.socialmedia{
+  right: 4rem;
+  display: flex;
+  gap: 16px;
+  position: absolute;
+  bottom: 18rem;
+}
+.footer h5{
+  color: white;
+}
+.footer ul{
+  list-style: none;
+}
+.footer li{
+  padding-bottom: 1rem;
+  font-size: small;
+  color: #7e7e7e;
+}
+.footer li:hover{
+  color: white;
+}
+.lastbar{
+  display: flex;
+  font-size: x-small;
+  position: relative;
+  color: #7e7e7e;
+  background-color: black;
+  height: 30px;
+
+}
+.lastbar ul{
+display: flex;
+list-style: none;
+gap: 1rem;
+position: absolute;
+right: 2rem;
+
+}
+.lastbar svg{
+  position:absolute;
+
+}
+.loc{
+  position: absolute;
+  left: 1rem;
+
+}
+.copyright{
+  position: absolute;
+  left: 6rem;
+}
+.btnsearch{
+  padding: 2px 5px !important;
+  border-radius: 17px;
+  border: 0;
+  position: absolute;
+}
+.btnsearch:hover{
+  background-color: rgb(172, 173, 173);
+}
+.lastbar h5:hover{
+  cursor: pointer;
+}
